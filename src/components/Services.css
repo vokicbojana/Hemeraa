@@ -1,0 +1,49 @@
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 52px;
+  margin-bottom: 20px;
+  width: 100%;
+  background: none;
+  color: #333;
+}
+
+.service-card {
+  width: calc(50% - 20px); /* Adjust the width as needed */
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-card h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .service-card {
+    width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  }
+}
+
+@media (max-width: 700px) {
+  .service-card {
+    width: 100%; /* One card per row on even smaller screens */
+  }
+}
