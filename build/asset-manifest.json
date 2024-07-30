@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Hemera/static/css/main.3bb54ba1.css",
+    "main.js": "/Hemera/static/js/main.10351c03.js",
+    "static/js/787.556de648.chunk.js": "/Hemera/static/js/787.556de648.chunk.js",
+    "index.html": "/Hemera/index.html",
+    "main.3bb54ba1.css.map": "/Hemera/static/css/main.3bb54ba1.css.map",
+    "main.10351c03.js.map": "/Hemera/static/js/main.10351c03.js.map",
+    "787.556de648.chunk.js.map": "/Hemera/static/js/787.556de648.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3bb54ba1.css",
+    "static/js/main.10351c03.js"
+  ]
+}
